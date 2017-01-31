@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_bill_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.myfirstapp.BillDetails"
+    tools:showIn="@layout/activity_bill_details"
+    android:orientation="vertical">
+
+    <CheckBox
+
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:id="@+id/checkBox"
+        android:layout_weight="1"
+
+        android:button="@drawable/favitem"
+        android:gravity="right"
+        android:layout_gravity="right"/>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/i6"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv1"
+            android:text="Bill ID"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv12"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+            </TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv2"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tv13"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv3"
+            android:text="Bill Type"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv14"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv4"
+            android:text="Sponsor"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv15"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv5"
+            android:text="Chamber"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv16"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv6"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv17"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv7"
+            android:text="Introduced On"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv18"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv8"
+            android:text="Congress URL"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tv19"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv9"
+            android:text="Version Status"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv20"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv10"
+            android:text="Bill URL"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tv21"
+
+            android:layout_gravity="right"
+            android:gravity="right">
+        </TextView>
+
+
+        </LinearLayout>
+
+</LinearLayout>
